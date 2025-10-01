@@ -13,7 +13,7 @@ FROM restaurants
 WHERE distance_miles <= 2.0
 ORDER BY distance_miles DESC
 ``` </pre>
-![Question 6a](6a.png)
+![Question 6a](img/6a.png)
 
 #### b. Show the top 3 restaurants by rating (highest first).
 <pre> ```sql
@@ -21,7 +21,7 @@ SELECT name
 FROM restaurants
 ORDER BY distance_miles DESC
 ``` </pre>
-![Question 6b](6b.png)
+![Question 6b](img/6b.png)
 
 #### c. List `name`, `avg_cost` and `cost` with 7.5% tax as `cost_with_tax`.
 <pre> ```sql
@@ -31,7 +31,7 @@ SELECT name
 FROM restaurants
 ORDER BY distance_miles DESC
 ``` </pre>
-![Question 6c](6c.png)
+![Question 6c](img/6c.png)
 
 #### d.How many restaurants are there per cuisine, highest count first?
 <pre> ```sql
@@ -41,4 +41,4 @@ SELECT name
 FROM restaurants
 ORDER BY distance_miles DESC
 ``` </pre>
-![Question 6d](6d.png)
+![Question 6d](img/6d.png)
